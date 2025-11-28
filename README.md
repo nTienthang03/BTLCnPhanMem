@@ -132,11 +132,4 @@ Sau khi nhận `access_token`, thêm header `Authorization: Bearer <token>` đ�
 - Lỗi 401: kiểm tra token, header `Authorization` và thời hạn token.
 - Lỗi 403: kiểm tra vai trò (`vai_tro`) trong payload token (cần `quản trị viên`).
 
----
 
-Nếu bạn muốn, tôi có thể bổ sung mục sau vào README:
-- Hướng dẫn cấu hình `.env` và chạy bằng Docker
-- Script seed dữ liệu test (hoạt động chờ duyệt)
-- Postman collection mẫu
-
-Chọn một mục bạn muốn mở rộng và tôi sẽ thêm chi tiết.
